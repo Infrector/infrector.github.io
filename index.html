@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+</head>  
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Attila 
+        <span>Kerekes</span></a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="selfie.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>I'm <span>Attila</span></h1>
+            <h3 class="text-animation">
+                I'm a <span></span>
+            </h3>
+            
+            <p>
+                placeholdertextpl aceholdertextplace holdertextplace holde rtext
+                placeholdertextplaceholderte xtplaceholdertextplaceholdertextplac eholdertextpla ceholde rtext
+                placehold ertextp laceholdertextp laceh oldertex tplaceholdertext placeholdertextpl aceho ldertext
+                placeho ldertextplace holdertextplace holdertextplaceholdertextplacehol dertextplaceholdertext
+                placeholderte xtplaceholdertextplaceh oldertextp laceholdertextplac eholdertext placehol dertext
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-telegram' ></i></a>
+                <a href="#"><i class='bx bxl-discord-alt' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                
+            </div>
+
+          <!-- <a href="#" class="btn">Hire me</a> 
+          -->
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+                <span></span>
+            
+            <p>
+                <span>Introduction</span> <br>
+                My name is Attila Kerekes and I am from Slovakia. 
+                I am 22 years old and I have been studying programming for 2.5 years now. <br>
+                I enjoy learning new things and I am trying to constantly hone my own skills and work on self development. <br>
+                I am keen on trying new methods, programming langugages and software. <br>
+                
+
+            </p>
+            <p>
+                <span>Skills</span> <br>
+                I am capable of writing programs in C, C#, Python, Java and Perl. 
+                I can design websites using HTML, CSS and Javascript. <br>
+                Establish databases, use different graphic designing, video editing software. <br>
+                Write code for Arduino and for it's peripherals and connect them properly. <br>
+                Make beginner 3D models in Blender, however I still hone my abilities in 3D modeling. <br>
+                I studied and understood the principles of OOP and implement these ideas in my code
+            </p>
+          
+            <p>
+                <span>Hobbies</span> <br>
+                Videogames, nature, hiking and cycling.
+            </p>
+            <a href="#" download="Attila_Kerekes_CV.pdf" class="btn">Download my CV</a>
+        </div>
+        <!--<div class="about-img">
+            <img src="selfie.png" alt="">
+        </div> -->
+        
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Buffon Needle Simulation in Matlab </h4>
+                    <p>
+                        The Buffon's needle Monte Carlo simulation approximates π by repeatedly dropping needles on a surface with parallel lines spaced apart. The process involves: <br>
+                        Randomly generating positions and angles for the needles. <br>
+                        Determining if each needle intersects any of the lines based on its position and angle. <br>
+                        Calculating the ratio of intersecting needles to the total number of needles. <br>
+                        Using the probability of intersection derived from the geometry of the setup, this ratio helps estimate π. The accuracy of the approximation improves with an increasing number of needle drops. <br> <br>
+                        The simulation uses random values for place and angles but in the end the value will always be close to π. <br> 
+                    
+                    </p>   
+                </div>
+                <div>
+                    <img src="buffon.png"> 
+                </div>
+                  
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Minesweeper in C#</h4>
+                    <p>
+                        The Minesweeper app in C# is a grid-based puzzle game where players reveal cells while avoiding hidden mines. 
+                        The game provides a configurable grid size and mine count, with mine positions randomized for each new game. 
+                        Players left-click to reveal cells, showing either a mine or a number indicating adjacent mines. 
+                        Right-clicking flags cells suspected of containing mines. The game is won by revealing all non-mine cells and lost instantly when a mine is clicked. 
+                        The user interface is built using Windows Forms, with each cell represented by a button. <br> 
+                    </p>
+                </div>
+                <div>
+                    <img class="project2-img"src="minesweeper.png">
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Blender Render</h4>
+                    <p>
+                        My Blender project features a glass cup filled with a blue fluid, showcasing realistic glass properties with varied settings. 
+                        Inside the cup, ice cubes and bubbles add depth and texture, each element rendered to enhance transparency and light refraction. 
+                        The scene is illuminated by two light sources with soft, natural lighting. <br> 
+                    </p>
+                </div>
+                <div>
+                    <img src="blendercup.png" alt="">
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span>Me</span>
+        </h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-telegram' ></i></a>
+            <a href="#"><i class='bx bxl-discord-alt' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+
+        <!--
+            <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        -->
+        <p class="copyright">
+            © Attila Kerekes
+        </p>
+    </footer>
+</body>
+</html>
